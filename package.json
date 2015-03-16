@@ -1,0 +1,30 @@
+{
+  "name": "promises_issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelchiti/promises_issues.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelchiti/promises_issues/issues"
+  },
+  "homepage": "https://github.com/rafaelchiti/promises_issues",
+  "dependencies": {
+    "babel": "^4.7.12",
+    "babel-core": "^4.7.12",
+    "babel-loader": "^4.2.0",
+    "bluebird": "^2.9.14",
+    "es6-promise": "^2.0.1",
+    "promise": "^6.1.0",
+    "react": "^0.12.2",
+    "webpack": "^1.7.3",
+    "when": "^3.7.2"
+  }
+}

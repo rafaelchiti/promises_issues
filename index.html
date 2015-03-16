@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<style type="text/css">
+  button {
+    padding: 1rem;
+    cursor: pointer;
+    margin: .5rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  label {
+    cursor: pointer;
+    display: block;
+  }
+</style>
+<body>
+
+<button onClick="window.runExample('bluebird');">
+  Run Bluebird (bluebird)
+</button>
+<button onClick="window.runExample('when');">
+  Run When.js (when)
+</button>
+<button onClick="window.runExample('es6-promise');">
+  Run es6-promise (es6-promise)
+</button>
+<button onClick="window.runExample('then');">
+  Run then promise (promise)
+</button>
+
+<label>
+  <input type="checkbox" id="reject-checkbox">
+  Reject promise?
+</label>
+
+<label>
+  <input type="checkbox" id="throw-checkbox">
+  Throw exception from handler?
+</label>
+
+<label>
+  <input type="checkbox" id="runtime-checkbox">
+  Produce runtime exception from handler?
+</label>
+
+<label>
+  <input type="checkbox" id="catch-checkbox">
+  Omit catch handler?
+</label>
+
+<label>
+  <input type="checkbox" id="done-checkbox">
+  Add .done?
+</label>
+
+<script src="dist/app.bundle.js"></script>
+</body>
+</html>
